@@ -8,7 +8,7 @@ while True:
             number = float(input("Put a Number:"))
             return number
         while True:
-            choice = int(input("You could a choice \n1-Collection\n2-Extraction\n3-Impact\n4-Chamber\n5-Factorial\n6-Equation Root\n7-Exit\nChoice:"))
+            choice = int(input("You could a choice \n1-Addition\n2-Subtraction\n3-Multiplication\n4-Division\n5-Factorial\n6-Equation Root\n7-Exit\nChoice:"))
             if choice == 1:
                 first = putnum()
                 second = putnum()
